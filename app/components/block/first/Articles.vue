@@ -17,7 +17,7 @@ import Clip from '~/assets/images/clip.svg'
       <Clip class="text-4xl" filled />
     </div>
     <div class="flex justify-between items-end relative">
-      <UButton color="neutral" variant="outline"
+      <UButton color="neutral" variant="outline" class="z-10"
         ><Arrow filled />Читать</UButton
       >
       <img

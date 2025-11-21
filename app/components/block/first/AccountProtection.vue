@@ -11,7 +11,7 @@ import Arrow from '~/assets/images/arrow.svg'
       <div class="text-white text-xl">Защита учётных записей</div>
       <img
         src="/assets/images/devs/y-flash.png"
-        class="-mb-12 mt-4 h-70 w-70 -rotate-15"
+        class="-mb-12 mt-4 h-40 w-40 lg:h-50 lg:w-50 xl:h-70 xl:w-70 -rotate-15"
       />
     </div>
     <div class="flex justify-end -mt-8">

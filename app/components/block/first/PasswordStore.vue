@@ -11,7 +11,7 @@ import Arrow from '~/assets/images/arrow.svg'
       <div class="text-white text-xl z-10">Хранение паролей и seed-фраз</div>
       <div class="flex justify-center">
         <img
-          class="-m-20"
+          class="-mb-6 lg:-mb-8 xl:-mb-20"
           width="300"
           src="/assets/images/devs/password-store.png"
         />
