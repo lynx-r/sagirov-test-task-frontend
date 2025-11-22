@@ -43,9 +43,9 @@ const devices = [
 
 <template>
   <div class="flex flex-col justify-between bg-white p-7 rounded-3xl">
-    <div class="">
+    <div class="mb-4">
       <div class="flex items-end">
-        <h1 class="md:text-sm lg:text-lg xl:text-4xl leading-tight">
+        <h1 class="text-lg md:text-sm lg:text-lg xl:text-4xl leading-tight">
           Интернет-магазин оборудования для защиты криптоактивов
         </h1>
         <UButton
@@ -56,7 +56,7 @@ const devices = [
       <!-- <UButton class="absolute right-0 top-5 lg:top-6 xl:top-8" -->
       <!-- ><Arrow /> В каталог</UButton -->
       <!-- > -->
-      <div class="md:text-xs lg:text-sm xl:text-2xl w-[70%] mt-3">
+      <div class="text-sm md:text-xs lg:text-sm xl:text-2xl w-[70%] mt-3">
         Сryptoro - официальный реселлер, самый большой выбор в России
       </div>
     </div>
