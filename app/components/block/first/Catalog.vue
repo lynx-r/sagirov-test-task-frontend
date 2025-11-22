@@ -42,26 +42,32 @@ const devices = [
 </script>
 
 <template>
-  <div class="flex flex-col justify-between bg-white p-4 rounded-3xl">
-    <div class="relative">
-      <div class="md:text-sm lg:text-lg xl:text-2xl">
-        Интернет-магазин оборудования для защиты криптоактивов
+  <div class="flex flex-col justify-between bg-white p-7 rounded-3xl">
+    <div class="">
+      <div class="flex items-end">
+        <h1 class="md:text-sm lg:text-lg xl:text-4xl leading-tight">
+          Интернет-магазин оборудования для защиты криптоактивов
+        </h1>
+        <UButton
+          class="py-3 px-6 flex items-center justify-center whitespace-nowrap"
+          ><Arrow /> В каталог</UButton
+        >
       </div>
-      <UButton class="absolute right-0 top-5 lg:top-6 xl:top-8"
-        ><Arrow /> В каталог</UButton
-      >
-      <div class="md:text-xs lg:text-sm xl:text-lg mt-3">
+      <!-- <UButton class="absolute right-0 top-5 lg:top-6 xl:top-8" -->
+      <!-- ><Arrow /> В каталог</UButton -->
+      <!-- > -->
+      <div class="md:text-xs lg:text-sm xl:text-2xl w-[70%] mt-3">
         Сryptoro - официальный реселлер, самый большой выбор в России
       </div>
     </div>
     <div class="flex justify-between gap-4">
-      <div class="flex gap-6">
+      <div class="flex gap-16">
         <div>
-          <div class="text-2xl lg:text-2xl xl:text-4xl">10+</div>
+          <div class="text-2xl lg:text-2xl xl:text-6xl">10+</div>
           <div class="lg:text-xl">лет на рынке</div>
         </div>
         <div>
-          <div class="text-2xl lg:text-2xl xl:text-4xl">50+</div>
+          <div class="text-2xl lg:text-2xl xl:text-6xl">50+</div>
           <div class="lg:text-xl">брендов</div>
         </div>
       </div>
@@ -69,7 +75,7 @@ const devices = [
         <div
           v-for="(dev, i) in devices"
           :key="i"
-          class="w-16 h-16 border-2 border-white -mr-3 rounded-full bg-gray-200 flex items-center justify-center"
+          class="w-18 h-18 border-2 border-white -mr-3 rounded-full bg-gray-200 flex items-center justify-center"
           :class="dev.classContainer"
         >
           <img :src="dev.src" :class="dev.classImg" />

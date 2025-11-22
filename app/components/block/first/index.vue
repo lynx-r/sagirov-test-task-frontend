@@ -4,11 +4,11 @@
   <div
     class="hero flex flex-col gap-4 p-8 h-full pb-34 relative bg-gray-200 rounded-3xl nebo nebo--bl"
   >
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 xl:h-112">
       <BlockFirstCatalog />
-      <BlockFirstProposals class="h-90" />
+      <BlockFirstProposals />
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 xl:h-112">
       <BlockFirstAccountProtection />
       <BlockFirstSocialNetworks />
       <BlockFirstArticles />

@@ -5,7 +5,7 @@ import Arrow from '~/assets/images/arrow.svg'
 <template>
   <div class="flex flex-col">
     <div
-      class="flex flex-col h-80 sm:h-full justify-between p-4 rounded-3xl bg-cover bg-no-repeat bg-center card nebo nebo--br"
+      class="flex flex-col h-80 sm:h-full justify-between p-7 rounded-3xl bg-cover bg-no-repeat bg-center card nebo nebo--br"
       style="background-image: url('/assets/images/bg/account-protection.jpg')"
     >
       <div class="text-white text-xl z-10">Хранение паролей и seed-фраз</div>

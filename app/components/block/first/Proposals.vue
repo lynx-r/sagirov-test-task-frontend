@@ -32,16 +32,16 @@ const devices = [
 
 <template>
   <div
-    class="flex flex-col justify-between p-4 rounded-3xl bg-cover bg-no-repeat bg-center"
+    class="flex flex-col justify-between p-7 rounded-3xl bg-cover bg-no-repeat bg-center"
     style="background-image: url('/assets/images/bg/proposal.jpg')"
   >
-    <div class="flex justify-between">
+    <div class="flex justify-between items-center">
       <div>
         <UButton color="neutral" variant="outline"
           >Выгодные предложения</UButton
         >
       </div>
-      <LogoWhite class="text-4xl" filled />
+      <LogoWhite class="text-6xl" filled />
     </div>
     <div class="grid grid-cols-2 gap-4">
       <div
@@ -56,7 +56,7 @@ const devices = [
         <div class="flex flex-col justify-between xl:ml-2">
           <div class="text-xs md:text-sm">{{ dev.name }}</div>
           <div class="flex justify-between text-xs md:text-sm">
-            <div>{{ dev.price }}</div>
+            <div class="font-bold">{{ dev.price }}</div>
             <Arrow />
           </div>
         </div>

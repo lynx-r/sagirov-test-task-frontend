@@ -6,7 +6,7 @@ import Youtube from '~/assets/images/youtube.svg'
 
 <template>
   <div
-    class="flex flex-col h-80 sm:h-full justify-between p-4 rounded-3xl bg-cover bg-no-repeat bg-center"
+    class="flex flex-col h-80 sm:h-full justify-between p-7 rounded-3xl bg-cover bg-no-repeat bg-center"
     style="background-image: url('/assets/images/bg/social-networks.jpg')"
   >
     <div class="flex justify-between">

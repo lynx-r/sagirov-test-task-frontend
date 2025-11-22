@@ -5,7 +5,7 @@ import Clip from '~/assets/images/clip.svg'
 
 <template>
   <div
-    class="flex flex-col h-60 sm:h-full justify-between bg-white p-4 rounded-3xl"
+    class="flex flex-col h-60 sm:h-full justify-between bg-white p-7 rounded-3xl"
   >
     <div class="flex justify-between">
       <div>
@@ -22,7 +22,7 @@ import Clip from '~/assets/images/clip.svg'
       >
       <img
         src="/assets/images/bg/articles.png"
-        class="w-26 xl:w-60 absolute -bottom-4 -right-4 rounded-br-4xl"
+        class="w-40 xl:w-60 absolute -bottom-7 -right-7 rounded-br-3xl"
       />
     </div>
   </div>
