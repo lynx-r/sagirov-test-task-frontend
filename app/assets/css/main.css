@@ -25,3 +25,15 @@
   /* You can also use a specific pixel value if needed, e.g., 96px */
   /* --ui-header-height: 96px; */
 }
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('~/assets/fonts/Gilroy-Medium.woff2') format('woff2');
+  font-weight: 400; /* Или другое значение */
+  font-style: normal;
+}
+/* Добавьте другие начертания Gilroy, если они есть */
+
+body { 
+  font-family: 'Gilroy', sans-serif; 
+}
