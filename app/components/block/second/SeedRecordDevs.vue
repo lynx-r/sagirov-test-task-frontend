@@ -29,10 +29,10 @@ import LockIcon from '~/assets/images/lock.svg'
 
 <style lang="css" scoped>
 .nebo {
-  --nb-r: 16px;
+  --nb-r: 18px;
 }
 .card {
-  --nb-h: 6px;
-  --nb-w: 6px;
+  --nb-h: 4px;
+  --nb-w: 4px;
 }
 </style>
