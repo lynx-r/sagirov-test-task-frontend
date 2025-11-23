@@ -39,17 +39,35 @@ const devices = [
     classImg: 'h-11 w-11',
   },
 ]
+
+const { $viewport } = useNuxtApp()
+const lessThanDesktop = ref(false)
+watch(
+  () => $viewport.isLessThan('desktop'),
+  (newBreakpoint) => {
+    lessThanDesktop.value = newBreakpoint
+    console.log('New breakpoint:', newBreakpoint)
+  },
+  { immediate: true },
+)
 </script>
 
 <template>
   <div class="flex flex-col justify-between bg-white p-7 rounded-3xl">
     <div class="mb-4">
-      <div class="flex items-end">
+      <div :class="{ 'flex items-end': !lessThanDesktop }">
+        <UButton
+          v-if="lessThanDesktop"
+          size="xs"
+          class="float-right flex items-center justify-center whitespace-nowrap"
+          ><Arrow /> В каталог</UButton
+        >
         <h1 class="text-lg md:text-sm lg:text-lg xl:text-4xl leading-tight">
           Интернет-магазин оборудования для защиты криптоактивов
         </h1>
         <UButton
-          class="py-3 px-6 flex items-center justify-center whitespace-nowrap"
+          v-if="!lessThanDesktop"
+          class="mb-2 flex items-center justify-center whitespace-nowrap"
           ><Arrow /> В каталог</UButton
         >
       </div>
