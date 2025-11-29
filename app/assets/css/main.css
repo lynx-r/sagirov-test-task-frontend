@@ -21,7 +21,7 @@
 :root {
   /* Customize the header height to a desired value, for example, --spacing(24) */
   --ui-header-height: 118px;
-  --ui-container: 100vw;
+  --ui-container: 100%;
   /* You can also use a specific pixel value if needed, e.g., 96px */
   /* --ui-header-height: 96px; */
 }
